@@ -1,0 +1,14 @@
+canvas {
+  border:3px solid black;
+} 
+
+html,body {
+  height: 100%;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
+
+
+
