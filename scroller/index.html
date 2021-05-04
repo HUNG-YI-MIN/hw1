@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+
+	    <style>
+         body {
+            height:3000px;
+         }
+         .drangon-ball-char {
+            z-index: 10;
+            position: absolute;
+         }
+
+          #bg-block {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 0;
+            min-width: 100%;
+            min-height: 100%;
+            background: url('images/b01.jpg') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -webkit-filter: blur(5px);
+         }
+      </style>
+      <link rel="stylesheet" href="css/style.css">
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+	   <script src="js/skrollr.min.js"></script>
+
+</head>
+
+
+
+<body>
+
+
+ <div id="bg-block" data-0="background-color:rgb(255,255,255);" data-500="background-color:rgb(1,16,35);top:-500px;" style="height:1800px;width:100%;">
+      
+ </div>
+      
+      <div class="drangon-ball-char" style="top:250px;width:100%;text-align:center">
+         <img src="images/bg.png" style="width: 600px; opacity: 1; -webkit-filter: blur(1px);" 
+         data-0="opacity: 0;-webkit-filter: blur(0px);position:fixed; margin-left: -600px;width: 600px;" 
+         data-100="opacity: 1;-webkit-filter: blur(0px);width: 600px;" class="skrollable skrollable-between"
+         >
+      </div>
+
+      <div class="drangon-ball-char" style="top:250px;width:100%;text-align:center">
+         <img src="images/1.png" style="width: 100px; opacity: 1; -webkit-filter: blur(1px);" 
+         data-0="opacity: 0;-webkit-filter: blur(0px); margin-left: -500px;top:-100px;" 
+         data-300="opacity: 1;-webkit-filter: blur(0px);position:fixed;top:20px;" class="skrollable skrollable-between">
+      </div>
+
+      <div class="drangon-ball-char" style="top:250px;width:100%;text-align:center">
+         <img src="images/2.png" style="width: 100px; opacity: 1; -webkit-filter: blur(1px);" 
+         data-300="opacity: 0;-webkit-filter: blur(0px); margin-left: -380px;top:-100px;" 
+         data-600="opacity: 1;-webkit-filter: blur(0px);position:fixed;top:85px;" class="skrollable skrollable-between">
+      </div>
+
+      <div class="drangon-ball-char" style="top:250px;width:100%;text-align:center">
+         <img src="images/4.png" style="width: 150px; opacity: 1; -webkit-filter: blur(1px);" 
+         data-600="opacity: 0;-webkit-filter: blur(0px); margin-left: -250px;top:-100px;" 
+         data-800="opacity: 1;-webkit-filter: blur(0px);position:fixed;top:100px;" class="skrollable skrollable-between">
+      </div>
+
+      <div class="drangon-ball-char" style="top:250px;width:100%;text-align:center">
+         <img src="images/5.png" style="width: 100px; opacity: 1; -webkit-filter: blur(1px);" 
+         data-800="opacity: 0;-webkit-filter: blur(0px); margin-left: -130px;top:-100px;" 
+         data-1000="opacity: 1;-webkit-filter: blur(0px);position:fixed;top:200px;" class="skrollable skrollable-between">
+      </div>
+
+      <div class="drangon-ball-char" style="top:250px;width:100%;text-align:center">
+         <img src="images/3.png" style="width: 100px; opacity: 1; -webkit-filter: blur(1px);" 
+         data-400="opacity: 0;-webkit-filter: blur(0px); margin-left: -300px;top:-100px;" 
+         data-500="opacity: 1;-webkit-filter: blur(0px);position:fixed;top:50px;" class="skrollable skrollable-between">
+      </div>
+
+      <div class="drangon-ball-char" style="top:250px;width:100%;text-align:center">
+         <img src="images/8.png" style="width: 150px; opacity: 1; -webkit-filter: blur(1px);" 
+         data-500="opacity: 0;-webkit-filter: blur(0px); margin-left: -570px;top:-100px;" 
+         data-600="opacity: 1;-webkit-filter: blur(0px);position:fixed;top:200px;" class="skrollable skrollable-between">
+      </div>
+
+      <div class="drangon-ball-char" style="top:250px;width:100%;text-align:center">
+         <img src="images/9.png" style="width: 100px; opacity: 1; -webkit-filter: blur(1px);" 
+         data-500="opacity: 0;-webkit-filter: blur(0px); margin-left: -450px;top:-100px;" 
+         data-600="opacity: 1;-webkit-filter: blur(0px);position:fixed;top:350px;" class="skrollable skrollable-between">
+      </div>
+
+      <div class="drangon-ball-char" style="top:250px;width:100%;text-align:center">
+         <img src="images/7.png" style="width: 130px; opacity: 1; -webkit-filter: blur(1px);" 
+         data-500="opacity: 0;-webkit-filter: blur(0px); margin-left: -250px;top:-100px;" 
+         data-600="opacity: 1;-webkit-filter: blur(0px);position:fixed;top:250px;" class="skrollable skrollable-between">
+      </div>
+
+      <div class="drangon-ball-char" style="top:250px;width:100%;text-align:center">
+         <img src="images/10.png" style="width: 160px; opacity: 1; -webkit-filter: blur(1px);" 
+         data-600="opacity: 0;-webkit-filter: blur(0px); margin-left: -350px;top:-100px;" 
+         data-700="opacity: 1;-webkit-filter: blur(0px);position:fixed;top:430px;" class="skrollable skrollable-between">
+      </div>
+
+      <div class="drangon-ball-char" style="top:250px;width:100%;text-align:center" 
+      data-700="opacity: 0;-webkit-filter: blur(0px); margin-left: -300px;top:300px;color:black;" 
+      data-1000="opacity: 1;-webkit-filter: blur(0px);position:fixed;top:300px;margin-left: 300px;color:white;" class="skrollable skrollable-between">
+         <p style="font-family:sans-serif;font-weight:bold;">Enjoy every moment spent here</p>
+      <h1 class="margin" style="font-size: 60px;font-family:sans-serif;font-weight:bold;">New City </h1>
+         <p style="font-family:sans-serif;font-weight:bold;">Where dreams turn to reality</p>  
+      </div>
+
+      
+
+   
+      <script type="text/javascript">
+      var skrollr_obj = skrollr.init();
+      </script>
+   
+</body>
+</html>
