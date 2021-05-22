@@ -46,26 +46,27 @@ p {
   }
 
   .blank8 {
+  	background-color: #FF948B;
+  	width: 100%;
+    height: 140px;
+   
+  }
+
+   .blank9 {
   	background-color: #FBFAFF;
   	width: 100%;
   height: 140px;
   }
 
-   .blank9 {
-  	background-color: white;
-  	width: 100%;
-  height: 140px;
-  }
-
     .blank10 {
-  	background-color: white;
+  	background-color: #C561B7;
   	width: 100%;
   height: 140px;
   }
 
 
     .blank11 {
-  	background-color: #FBFAFF;
+  	background-color: ;
   	width: 100%;
   height: 140px;
   }
@@ -161,7 +162,7 @@ div#sector1  div.top {
 
 .big:hover{
   background: linear-gradient(to left, #8D3DF3, #C662B7, #FC7F7A);
-    background: -webkit-linear-gradient(to left, #8D3DF3, #C662B7, #FC7F7A);
+  background: -webkit-linear-gradient(to left, #8D3DF3, #C662B7, #FC7F7A);
 }
 
 .nav-item {
@@ -261,6 +262,8 @@ div#sector3 div.left {
 }
 
 
+
+
 /*sector4*/
 #sector4 {
 	background-color: #FFF2E7;
@@ -290,6 +293,11 @@ div#sector4 div.left {
 /*	background-color: red;*/
 	height: 700px;
 
+}
+
+
+div#sector4 img {
+  width: 50%;
 }
 /*sector5*/
 
@@ -419,7 +427,8 @@ div#sector5 div.left {
 	width: 100%;
 	height: 700px;
 	/*margin-top:100px;*/
-	background-image: url(../img/b6.jpg);
+/*	background-image: url(../img/b6.jpg);*/
+  background: linear-gradient(to bottom, #5528B1, #7264E1, #FF948B);
 }
 
 div#sector6 div.right {
@@ -442,6 +451,16 @@ div#sector6 div.right2 {
 div#sector6 div.left {
 /*	background-color: red;*/
 	height: 700px;
+
+}
+
+
+div#sector6 img {
+  width: 65%;
+  margin-top: 100px;
+}
+
+div#sector6 img:hover {
 
 }
 
@@ -482,7 +501,9 @@ div#sector7 div.left {
 
 /*sector8*/
 #sector8 {
-	background-color: #FBFAFF;
+	background-image: -webkit-linear-gradient(top, #FBFAFF 0%, #FF948B 60%, #FF948B 90%);  
+   background-image: -moz-linear-gradient(top, #FBFAFF 0%, #FF948B 60%, #FF948B 90%); 
+   background-image: linear-gradient(top, #FBFAFF 0%, #FF948B 60%, #FF948B 90%); 
 	width: 100%;
 	height: 700px;
 	/*margin-top:100px;*/
@@ -560,7 +581,9 @@ div#sector8 div.left {
 
 /*sector9*/
 #sector9 {
-	background-color: white;
+  background-image: -webkit-linear-gradient(top, #FF948B 0%, #FF948B 60%, #FBFAFF 90%);  
+   background-image: -moz-linear-gradient(top, #FF948B 0%, #FF948B 30%, #FBFAFF 60%, #FBFAFF 90%); 
+   background-image: linear-gradient(top, #FF948B 0%, #FF948B 30%, #FBFAFF 60%, #FBFAFF 90%); 
 	width: 100%;
 	height: 700px;
 /*	margin-top:100px;*/
@@ -576,22 +599,25 @@ div#sector9 p {
 	font-size:18px;
     font-family :Microsoft JhengHei;
     color: #17154C;
-    margin-top:500px;
-    margin-left: 80px;
+    margin-top:100px;
+    margin-left: 40px;
 }
 
 div#sector9 h1 {
 	font-size:25px;
 	font-family :Microsoft JhengHei;
     color: #17154C;
-    margin-left: 80px;
+    margin-left: 40px;
 }
 /*sector10*/
 #sector10 {
-	background-color: white;
+	background-image: -webkit-linear-gradient(top, #FBFAFF 0%, #FF948B 60%, #C561B7 90%);  
+   background-image: -moz-linear-gradient(top, #FBFAFF 0%, #FF948B 60%, #C561B7 90%); 
+   background-image: linear-gradient(top, #FBFAFF 0%, #FF948B 60%, #C561B7 90%); 
 	width: 100%;
 	height: 700px;
 /*	margin-top:100px;*/
+
 }
 
 
@@ -629,9 +655,9 @@ div#sector9 h1 {
 	width: 100%;
 	height: 700px;
 /*	margin-top:100px;*/
-	background-image: -webkit-linear-gradient(left, #C561B7, #893BF8);  
-   background-image: -moz-linear-gradient(left, #C561B7, #893BF8); 
-   background-image: linear-gradient(left,#C561B7, #893BF8); 
+	background-image: -webkit-linear-gradient(top, #C561B7 0%, #FF948B 60%, #FBFAFF 90%);  
+   background-image: -moz-linear-gradient(top,#C561B7 0%, #FF948B 60%, #FBFAFF 90%); 
+   background-image: linear-gradient(top, #C561B7 0%, #FF948B 60%, #FBFAFF 90%); 
 
 }
 
