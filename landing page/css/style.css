@@ -12,6 +12,11 @@
 }
 }
 
+.nav-item:hover {
+   color: white;
+}
+
+
 /*banner*/
 .box1 {
 	width:100%;
@@ -56,18 +61,21 @@ p {
 
 .ball {
 	width: 100px;
-	background-color: black;
 	height: 100px;
 	font-size: 40px;
-	border-radius: 100%;
+	border-radius: 10%;
 	line-height:100px;
 	padding-left: 10px;
 	margin-top: 50px;
 	justify-content: space-around;
-	background-color: #FC7F7A;
-	color: white;
+	background-color: white;
+	color: black;
+	border:1px #8D3DF3 solid;
+	filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.1))
 
 }
+
+
 
 /*feature1*/
 .box3 {
@@ -177,10 +185,15 @@ p {
   color: white;
   font-size: 16px;
   padding: 16px 32px;
+  border-radius:10px
 }
 
 .text:hover {
   background-color: #40228E;
+}
+
+.option {
+	border-color:1px linear-gradient(to left, #FC7F7A, #C662B7, #8D3DF3) solid;
 }
 
 /*contact*/
